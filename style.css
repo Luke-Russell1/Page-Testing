@@ -1,0 +1,90 @@
+#main {
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; /* Optional: Ensures padding and border don't affect dimensions */
+    border: 1px solid #000; /* Optional: Border for visual distinction */
+    background-color: #808080; /* change background color here */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .sepInstructions {
+    text-align: center;
+    width: 500px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Add scrollbar if content overflows */
+}
+.collabInstructions {
+    text-align: center;
+    width: 500px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; /* Add scrollbar if content overflows */
+  }
+  .instructions{
+    text-align: center;
+    width: 500px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; 
+  }
+  .consent{
+    text-align: center;
+    width: 800px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    border: 1px red;
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: visible; 
+  }
+  .participantInfo{
+    text-align: center;
+    width: 800px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    border: 1px red;
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: visible; 
+  }
+  input[type = number]{
+    width: 50%;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom:2px solid black;
+  }
+  select{
+    font-size: 14px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+
+  }
+.submit{
+    font-size: 14px;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 4px;
+}
+.breakDiv{
+    text-align: center;
+    width: 500px; /* Width of the square */
+    height: 600px; /* Height of the square */
+    margin: 0 auto; /* Center the div horizontally */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: auto; 
+}
